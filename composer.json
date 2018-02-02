@@ -1,0 +1,25 @@
+{
+    "name": "markushaug/sonos",
+    "description": "",
+    "authors": [
+        {
+            "name": "Markus Haug",
+            "email": "mh@haugmarkus.de"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Sonos\\Providers\\SonosServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Sonos\\": ""
+        }
+    }
+}

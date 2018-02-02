@@ -1,0 +1,16 @@
+{
+    "name": "Sonos",
+    "alias": "sonos",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Sonos\\Providers\\SonosServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}
