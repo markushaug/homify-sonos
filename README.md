@@ -18,6 +18,9 @@ Control you Sonos-Devices with homify
 
 ## Usage
 
+The following json is required for the plug-in, when you create a new thing:
+- ```{"default_on":"PLAY", "default_off": "STOP", "ip":"10.10.3.1"}```
+
 Homify's routing is fully dynamically. You can use the following URL to access your things:
 
 - ```https://<server_ip>/<thing_name>/<channel>```
