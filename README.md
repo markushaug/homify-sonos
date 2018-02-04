@@ -8,7 +8,6 @@ Control you Sonos-Devices with homify
 ## Coming soon
 
 - Discover function, to discover all Sonos-devices in your local network (upnp-broadcast)
-- Autogeneration of HomeBridge config files
 
 
 ## Installation
