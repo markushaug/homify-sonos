@@ -1,6 +1,6 @@
 {
-    "name": "markushaug/sonos-module",
-    "type": "laravel-module",
+    "name": "markushaug/homify-sonos",
+    "type": "homify-module",
     "description": "",
     "authors": [
         {
