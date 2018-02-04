@@ -25,28 +25,28 @@ class Sonos extends Speaker
     {
         $this->thing->Play();
         // set status for frontend
-        $this->thing->setStatus('ON');
+        $this->setStatus('ON');
     }
 
     public function pause()
     {
         $this->thing->Pause();
         // Set status for frontend
-        $this->thing->setStatus('OFF');
+        $this->setStatus('OFF');
     }
 
     public function on($lv_cmd = null)
     {
         $this->thing->Play();
         // set status for frontend
-        $this->thing->setStatus('ON');
+        $this->setStatus('ON');
     }
 
     public function off($lv_cmd = null)
     {
         $this->thing->Pause();
         // set status for frontend
-        $this->thing->setStatus('OFF');
+        $this->setStatus('OFF');
     }
 
 
