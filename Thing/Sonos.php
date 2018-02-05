@@ -103,7 +103,6 @@ class Sonos extends Speaker
 
     public function getVolume()
     {
-        echo $this->thing->GetVolume();
         return $this->thing->GetVolume();
     }
 
