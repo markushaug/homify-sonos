@@ -35,7 +35,6 @@ class CreateSonos
         if(is_null($json->default_on) || is_null($json->default_off) || is_null($json->ip) ){
             return "Arguments missing";
         }
-        echo $json->ip;
         
         $thing = new Thing;
 
