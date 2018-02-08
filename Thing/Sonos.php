@@ -26,6 +26,7 @@ class Sonos extends Speaker
         $this->thing->Play();
         // set status for frontend
         $this->setStatus('ON');
+    
     }
 
     public function pause()
@@ -86,6 +87,7 @@ class Sonos extends Speaker
     public function next()
     {
         $this->thing->Next();
+
     }
 
     /**
@@ -94,11 +96,13 @@ class Sonos extends Speaker
     public function previous()
     {
         $this->thing->Previous();
+
     }
 
     public function setVolume()
     {
         $this->thing->SetVolume($this->getInput());
+
     }
 
     public function getVolume()
